@@ -12,3 +12,9 @@
 
 </p>
 
+<div algin="center">
+
+  [![Your Juejin Profile](https://stats.justsong.cn/api/juejin?id=442481839964776&theme=gruvbox)](https://juejin.cn/user/442481839964776)
+  [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=doudou-sir&show_icons=true&theme=gruvbox)](https://github.com/doudou-sir/github-readme-stats)
+  
+</div>
