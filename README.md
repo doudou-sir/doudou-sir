@@ -11,12 +11,3 @@
   ![Character](https://img.shields.io/badge/%E7%88%B1%E5%A5%BD-%E6%A0%B7%E6%A0%B7%E9%83%BD%E7%88%B1-%23EC6818)
 
 </p>
-
-<div algin="center">
-  <p>
-    
-    [![Your Juejin Profile](https://stats.justsong.cn/api/juejin?id=442481839964776&theme=gruvbox)](https://juejin.cn/user/442481839964776)
-    [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=doudou-sir&show_icons=true&theme=gruvbox)](https://github.com/doudou-sir/github-readme-stats)
-  
-  </p>
-</div>
