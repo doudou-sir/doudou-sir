@@ -10,8 +10,8 @@
 <div algin="center">
   
   ![Programming Language](https://img.shields.io/badge/Programme-javascript%20typescript-green)
-  ![Frame](https://img.shields.io/badge/Frame-react%20vue%20express%20nestjs-green)
-  ![Frame](https://img.shields.io/badge/Frame-element%20vant%20antd-green)
+  ![Frame](https://img.shields.io/badge/Frame-react%20vue%20nestjs-green)
+  ![Frame](https://img.shields.io/badge/Frame-element%20%20antd-green)
 
 </div>
 
