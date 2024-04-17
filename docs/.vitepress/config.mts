@@ -100,6 +100,10 @@ function sidebarTalkative(): DefaultTheme.SidebarItem[] {
         {
           text: "使用 VitePress",
           link: "use-vitepress"
+        },
+        {
+          text: "Markdown 中使用自定义组件",
+          link: "custom-component"
         }
       ]
     },
