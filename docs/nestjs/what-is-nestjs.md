@@ -1,4 +1,4 @@
-# 认识 NestJs
+# 认识 NestJS
 
 ```powershell
 # 使用 Nest CLI 搭建项目基架

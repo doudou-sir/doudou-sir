@@ -18,18 +18,7 @@ export default defineConfig({
       },
       "/talkative/": {
         base: "/talkative/",
-        items: [
-          {
-            text: "TypeScript",
-            collapsed: false,
-            items: [
-              {
-                text: "接口与类型",
-                link: "interface-vs-type"
-              }
-            ]
-          }
-        ]
+        items: sidebarTalkative()
       }
     },
 
@@ -57,7 +46,13 @@ export default defineConfig({
     outline: {
       // level: [2, 6],
       label: "页面导航"
-    }
+    },
+    langMenuLabel: "多语言",
+    returnToTopLabel: "回到顶部",
+    sidebarMenuLabel: "菜单",
+    darkModeSwitchLabel: "主题",
+    lightModeSwitchTitle: "切换到浅色模式",
+    darkModeSwitchTitle: "切换到深色模式"
   }
 });
 
@@ -65,7 +60,7 @@ function navs(): DefaultTheme.NavItem[] {
   return [
     {
       text: "话痨时刻",
-      link: "/talkative/interface-vs-type",
+      link: "/talkative/use-vitepress",
       activeMatch: "/talkative/"
     },
     {
@@ -90,6 +85,31 @@ function sidebarNestjs(): DefaultTheme.SidebarItem[] {
         {
           text: "初始 NestJS",
           link: "what-is-nestjs"
+        }
+      ]
+    }
+  ];
+}
+
+function sidebarTalkative(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "VitePress",
+      collapsed: false,
+      items: [
+        {
+          text: "使用 VitePress",
+          link: "use-vitepress"
+        }
+      ]
+    },
+    {
+      text: "TypeScript",
+      collapsed: false,
+      items: [
+        {
+          text: "接口与类型",
+          link: "interface-vs-type"
         }
       ]
     }
