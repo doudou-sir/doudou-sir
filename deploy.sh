@@ -16,3 +16,8 @@ git commit -m 'deploy'
 
 # 部署到 git@github.com:doudou-sir/doudou-sir.github.io.git
 git push origin main
+
+cd ../../../
+git add .
+git commit -m '更改'
+git push origin main
