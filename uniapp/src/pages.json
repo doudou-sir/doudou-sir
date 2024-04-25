@@ -1,0 +1,61 @@
+{
+  // 组件自动导入
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      // uni-ui 规则如下配置
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+      // uv-ui
+      "^uv-(.*)": "@climblee/uv-ui/components/uv-$1/uv-$1.vue",
+      // 自定义组件
+      "^dou-(.*)": "@/components/dou/dou-$1/dou-$1.vue"
+    }
+  },
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom", // 去除原生导航栏
+        "navigationBarTextStyle":"white" //状态栏字体颜色
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom", // 去除原生导航栏
+        "usingComponents": {
+          "towxml": "/wxcomponents/towxml/towxml"
+        }
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "哪都通",
+    "navigationBarBackgroundColor": "#f6f6f6",
+    "backgroundColor": "#f6f6f6"
+  },
+  "tabBar": {
+    "color": "#101110",
+		"selectedColor": "#167cf8",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+    "list": [
+      {
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabBar/index.png",
+				"selectedIconPath": "static/tabBar/index_selected.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabBar/my.png",
+				"selectedIconPath": "static/tabBar/my_selected.png"
+			}
+    ]
+  }
+}

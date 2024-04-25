@@ -1,0 +1,15 @@
+{
+  "Print Vue3 UniApp SFC": {
+    "scope": "vue",
+    "prefix": "v3",
+    "body": [
+      "<script setup lang=\"ts\"></script>",
+      "$2",
+      "<template>",
+      "  <view class=\"\">$1</view>",
+      "</template>",
+      "$2",
+      "<style scoped lang=\"scss\"></style>"
+    ]
+  }
+}

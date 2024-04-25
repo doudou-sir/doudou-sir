@@ -1,0 +1,15 @@
+.vscode/
+dist/
+node_modules/
+public/
+
+src/static/
+src/typing/
+src/utils/*js
+src/manifest.json
+src/pages.json
+src/*d.ts
+
+package.json
+pnpm-lock.yaml
+tsconfig.json

@@ -1,0 +1,17 @@
+@import '@/uni.scss';
+
+// 公共按钮样式
+.dou-btn-primary {
+  background-color: $uni-color-primary;
+  color: $uni-text-color-inverse;
+  box-shadow: 0 10px 10px -10px $uni-color-primary;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dou-bg-primary {
+  background-color: $uni-bg-color-grey;
+  color: $uni-text-color;
+}
